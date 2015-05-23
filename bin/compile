@@ -11,8 +11,8 @@ CACHE_DIR=$2
 CACHED_DIRS=".heroku"
 WORKING_DIR=$(pwd)
 
-rm -fr $CACHE_DIR
 mkdir -p $CACHE_DIR
+rm -fr $CACHE_DIR/*
 
 # Versions.
 PYTHON_VERSION="python-3.4.3"
